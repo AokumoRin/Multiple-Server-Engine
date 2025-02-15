@@ -1,0 +1,12 @@
+/* src/renderer/css/font.css */
+
+@font-face {
+    font-family: "Pretendard";
+    src: url("../assets/fonts/Pretendard.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font {
+    font-family: "Pretendard", sans-serif;
+}
