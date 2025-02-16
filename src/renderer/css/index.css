@@ -1,5 +1,45 @@
 /* src/renderer/index.css */
 
-h1 {
-    font-size: 100px;
+html, body, .container-fluid, .main-box {
+    height: 100vh;
+}
+
+p {
+    margin: 0 !important;
+    margin-top: 0.5em !important;
+}
+
+hr {
+    margin: 0.5em !important;
+    opacity: .5 !important;
+}
+
+.left-tab-top {
+    height: 90%;
+}
+
+.left-tab-bottom {
+    height: 10%;
+}
+
+.left-tab-box {
+    border: 1px solid #000;
+    border-radius: 1em;
+    margin: 0.5em !important;
+}
+
+.left-tab-top-box {
+    margin-bottom: 0 !important;
+}
+
+.server-list {
+    overflow-y: scroll;
+    max-height: 70vh;
+}
+
+.server-select-button, .server-add-button {
+    width: 90%;
+    border-radius: 1em !important;
+    margin: 0.5em;
+    margin-bottom: 0;
 }
